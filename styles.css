@@ -1,0 +1,69 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: -moz-box;
+}
+
+.nav_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first_content_wrap {
+  display: flex;
+  background-color: #f9dbbe;
+  z-index: 1;
+}
+.first_imagebox {
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.first_image {
+  height: 100vh;
+}
+.first_content_text {
+  top: 0;
+  right: 0;
+  height: 80px;
+  background-color: #f9dbbe;
+  color: #454444;
+  text-align: center;
+  line-height: 1.2;
+  vertical-align: 20%;
+  padding: 15% 50px;
+  font-size: 35px;
+}
+.first_content_Padding {
+  padding-bottom: 50px;
+  color: white;
+}
+
+.second_wrap {
+  display: flex;
+  background-color: #f9dbbe;
+  z-index: 1;
+}
+.second_image {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  height: 100vh;
+}
+.second_content_text {
+  top: 0;
+  right: 0;
+  height: 80px;
+  background-color: #f9dbbe;
+  color: #454444;
+  text-align: center;
+  line-height: 1.2;
+  vertical-align: 20%;
+  padding: 15% 50px;
+  font-size: 35px;
+}
+.second_content_Padding {
+  color: white;
+}
